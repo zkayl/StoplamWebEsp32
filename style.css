@@ -1,0 +1,53 @@
+@font-face {
+    font-family: CustomFont;
+    src: url('/font.ttf');
+}
+
+body {
+    font-family: CustomFont;
+    text-align: center;
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#content {
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin-bottom: 1px;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 3px #3C33FE;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 3px #3C33FE;
+}
+
+h3 {
+    margin-top: 1px;
+    font-size: 33px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #3C33FE;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 15px 50px;
+    font-size: 40px;
+    background-color: #3C33FE;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 32px;
+}
